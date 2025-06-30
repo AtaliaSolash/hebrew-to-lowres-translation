@@ -10,7 +10,7 @@ Translation Pipeline:
 1. Direct Method: Hebrew → Target Language 
 2. Pivot Method: Hebrew → English → Target Language
 
-Data:
+Dataset:
 TED 2020 subset of the OPUS corpus.
 Example data can be found in the translation_xml_data folder.
 

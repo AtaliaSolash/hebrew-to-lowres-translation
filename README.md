@@ -12,7 +12,7 @@ Translation Pipeline:
 
 Dataset:
 TED 2020 subset of the OPUS corpus.
-Example data can be found in the translation_xml_data folder.
+Example data can be found in the TED2020_xml_data folder.
 
 Data Preprocessing:
 Each sentence pair was embedded using the multilingual-e5-large model, and cosine similarity was calculated to identify and remove mismatched or noisy pairs. Pairs with a similarity score below 0.75 were excluded to maintain high semantic alignment. Additionally, sentence pairs containing English words were removed to avoid bias in pivot-based translation steps. Finally, a subset of 20,000 aligned sentence pairs was selected and shared across both language pairs for consistent evaluation.
